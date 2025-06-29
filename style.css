@@ -67,3 +67,12 @@ input::placeholder {
     grid-auto-rows: 200px;
     gap: 20px;
 }
+
+@media (max-width: 926px) {
+    .container-box {
+        display: grid;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 200px;
+    }
+}
